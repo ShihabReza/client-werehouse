@@ -1,11 +1,17 @@
 import logo from './logo.svg';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
+import Header from './component/Header/Header';
+import { Route, Routes } from 'react-router-dom';
+import Home from './component/Home/Home';
 
 function App() {
   return (
     <div className="App">
-      <h1 className='text-danger'>Start This WebSite</h1>
+      <Header></Header>
+      <Routes>
+          <Route path='/'element={<Home></Home>}></Route>
+      </Routes>
     </div>
   );
 }
