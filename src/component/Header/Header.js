@@ -1,16 +1,36 @@
-import React from 'react';
+
+import { signOut } from 'firebase/auth';
+
+import { useAuthState } from 'react-firebase-hooks/auth';
 import { Container, Nav, Navbar } from 'react-bootstrap';
+import auth from '../../firebase.int';
 
 const Header = () => {
+  const [user] = useAuthState (auth)
+
+  const hendelSingOut = () =>{
+    signOut(auth)
+  }
     return (
         <div>
           <Navbar bg="dark" variant="dark">
             <Container>
-             <Navbar.Brand href="#home">Navbar</Navbar.Brand>
+             <Navbar.Brand href="/">Navbar</Navbar.Brand>
                     <Nav className="">
-                    <Nav.Link href="#home">Home</Nav.Link>
-                    <Nav.Link href="#features">Features</Nav.Link>
-                 <Nav.Link href="#pricing">Pricing</Nav.Link>
+                    <Nav.Link href="/">Home</Nav.Link>
+                    <Nav.Link href="/SingUp">SingUp</Nav.Link>
+                    <Nav.Link href="/detls">detls</Nav.Link>
+                 
+                   
+                   {
+                     user?
+                     <Nav.Link onClick={hendelSingOut}>LogOut</Nav.Link>
+                     :
+                     <Nav.Link href="/Login">Login</Nav.Link>
+                   
+                   }
+                   
+                  
         </Nav>
     </Container>
   </Navbar>

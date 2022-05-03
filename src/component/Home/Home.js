@@ -1,11 +1,12 @@
 import React, { useEffect, useState } from 'react';
 import { Carousel } from 'react-bootstrap';
 import Items from '../Items/Items';
+import MainSection from '../MainSection/MainSection';
 
 const Home = () => {
     const [items,setItems] = useState ([])
     useEffect( () =>{
-        fetch('data.json')
+        fetch('http://localhost:5000/product')
         .then(res=>res.json())
         .then(data=>setItems(data))
     },[])
@@ -48,13 +49,14 @@ const Home = () => {
                     </Carousel.Caption>
                 </Carousel.Item>
                 </Carousel>
-            <div className="container mt-5">
+            <div className="container mt-5 gx-1">
                 <div className="row ">
                     {
                       items.map(item=><Items key={item.id} item={item}></Items>)
                     }
                 </div>
             </div>
+            <MainSection></MainSection>
         </div>
     );
 };
