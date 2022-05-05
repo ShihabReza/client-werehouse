@@ -18,7 +18,7 @@ function App() {
           
           <Route path='/SingUp' element={<SingUp></SingUp>}></Route>
           <Route path='/Login'element={<Login></Login>}></Route>
-          <Route path='/detls' element={
+          <Route path='/detls/:id' element={
             <PrivateRoute><ProductDetls></ProductDetls></PrivateRoute>
           }></Route>
       </Routes>

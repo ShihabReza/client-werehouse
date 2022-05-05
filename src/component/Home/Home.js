@@ -52,7 +52,7 @@ const Home = () => {
             <div className="container mt-5 gx-1">
                 <div className="row ">
                     {
-                      items.map(item=><Items key={item.id} item={item}></Items>)
+                      items.map(item=><Items key={item._id} item={item}></Items>)
                     }
                 </div>
             </div>
