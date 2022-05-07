@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import Header from './component/Header/Header';
+import Footer from './component/Footer/Footer';
 import { Route, Routes } from 'react-router-dom';
 import Home from './component/Home/Home';
 import SingUp from './component/SingUp/SingUp';
@@ -22,6 +23,7 @@ function App() {
             <PrivateRoute><ProductDetls></ProductDetls></PrivateRoute>
           }></Route>
       </Routes>
+     <Footer></Footer>
     </div>
   );
 }

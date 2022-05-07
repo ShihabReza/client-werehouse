@@ -13,7 +13,7 @@ const Items = (props) => {
 
     return (
        
-            <div className="col-xl-4 p-3 h">
+            <div className="col-xl-4 p-3">
                
                 <img style={{ width:'400px',height:'300px'}} src={img} alt="" />
                 <h3>{name}</h3>
@@ -21,7 +21,7 @@ const Items = (props) => {
                 <h4>Quntyty : {quntyty}</h4>
                 <p>supplierName : {supplierName}</p>
                 <h5>${price}</h5>
-                <button onClick={()=>hendelButton(_id)} className='w-100 border-0 bg-dark text-white p-3'>UPDETE</button>
+                <button onClick={()=>hendelButton(_id)} className='w-100 border-0 bg-dark text-white p-3 '>UPDETE</button>
             </div>
        
     );

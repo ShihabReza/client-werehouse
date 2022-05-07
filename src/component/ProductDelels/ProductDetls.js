@@ -26,6 +26,7 @@ const ProductDetls = () => {
                 <h4>Quntyty : {product.quntyty}</h4>
                 <p>supplierName : {product.supplierName}</p>
                 <h5>${product.price}</h5>
+                <button className="w-30 border-0 bg-dark text-white p-3">delever</button>
             </div>
             
             
