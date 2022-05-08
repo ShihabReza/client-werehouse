@@ -16,7 +16,7 @@ const Home = () => {
                 <Carousel.Item>
                         <img
                         className="d-block w-100"
-                        src="https://img.freepik.com/free-photo/portrait-tender-beautiful-blond-caucasian-girl-white-dress-daydreaming-while-listening-favorit_1258-93610.jpg?t=st=1651985960~exp=1651986560~hmac=6541515250311e596a676ba24df7119fa882128f5ff8746eadd4003cd241f257&w=1380"
+                        src="https://img.freepik.com/free-photo/portrait-tender-happy-cute-blond-girl-white-dress-close-eyes-smiling-pleased-as-listening-music-headphones-feeling-warmth-happiness-enjoying-favorite-track-hold-mobile-phone_1258-93881.jpg?t=st=1651986356~exp=1651986956~hmac=685966ca9a357dbbea0fe45c92dfe5ac2e7a7b845ecb83d536ff0793110af218&w=1380"
                         alt="First slide"
                         />
                         <Carousel.Caption>
@@ -27,7 +27,7 @@ const Home = () => {
                 <Carousel.Item>
             <img
             className="d-block w-100"
-            src="https://img.freepik.com/free-photo/portrait-tender-beautiful-blond-caucasian-girl-white-dress-daydreaming-while-listening-favorit_1258-93610.jpg?t=st=1651985960~exp=1651986560~hmac=6541515250311e596a676ba24df7119fa882128f5ff8746eadd4003cd241f257&w=1380"
+            src="https://img.freepik.com/free-photo/portrait-tender-happy-cute-blond-girl-white-dress-close-eyes-smiling-pleased-as-listening-music-headphones-feeling-warmth-happiness-enjoying-favorite-track-hold-mobile-phone_1258-93881.jpg?t=st=1651986356~exp=1651986956~hmac=685966ca9a357dbbea0fe45c92dfe5ac2e7a7b845ecb83d536ff0793110af218&w=1380"
             alt="Second slide"
             />
 
@@ -38,7 +38,7 @@ const Home = () => {
                 <Carousel.Item>
                     <img
                     className="d-block w-100"
-                    src="https://img.freepik.com/free-photo/portrait-tender-beautiful-blond-caucasian-girl-white-dress-daydreaming-while-listening-favorit_1258-93610.jpg?t=st=1651985960~exp=1651986560~hmac=6541515250311e596a676ba24df7119fa882128f5ff8746eadd4003cd241f257&w=1380"
+                    src="https://img.freepik.com/free-photo/portrait-tender-happy-cute-blond-girl-white-dress-close-eyes-smiling-pleased-as-listening-music-headphones-feeling-warmth-happiness-enjoying-favorite-track-hold-mobile-phone_1258-93881.jpg?t=st=1651986356~exp=1651986956~hmac=685966ca9a357dbbea0fe45c92dfe5ac2e7a7b845ecb83d536ff0793110af218&w=1380"
                     alt="Third slide"
                     />
 

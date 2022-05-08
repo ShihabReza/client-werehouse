@@ -7,6 +7,7 @@ import GoogleLogin from '../GoogleLogin/GoogleLogin';
 
 const Login = () => {
     const navigate = useNavigate()
+    
     const [
         signInWithEmailAndPassword,
         user,
@@ -16,6 +17,14 @@ const Login = () => {
       const emailRef = useRef('')
     const passwordRef = useRef('')
 
+    let erorrItams;
+
+    if (error) {
+        erorrItams = <div>
+                         <p className='text-danger'>Error: {error.message}</p>
+                     </div>
+        
+      }
     if(user){
         navigate('/')
     }
@@ -44,6 +53,7 @@ const Login = () => {
                 <Form.Group className="mb-3" controlId="formBasicCheckbox">
                     <Form.Check type="checkbox" label="Check me out" />
                 </Form.Group>
+                {erorrItams}
                 <Button variant="primary" type="submit">
                     Login
                 </Button>
