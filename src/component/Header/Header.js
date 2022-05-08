@@ -20,11 +20,11 @@ const Header = () => {
                     <Nav.Link href="/">Home</Nav.Link>
                     <Nav.Link href="/blog">Blog</Nav.Link>
 
-                    <Nav.Link href="/detls">Detls</Nav.Link>
+                    
                     <Nav.Link href="/SingUp">SingUp</Nav.Link>
                     
                  
-                   
+                    <Nav.Link href="/detls">Detls</Nav.Link>
                    {
                      user?
                      <Nav.Link onClick={hendelSingOut}>LogOut</Nav.Link>

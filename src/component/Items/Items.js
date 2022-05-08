@@ -13,7 +13,7 @@ const Items = (props) => {
 
     return (
        
-            <div className="col-xl-4 p-3">
+            <div className="col-xl-4 p-3 col-12 col-md-6">
                
                 <img style={{ width:'400px',height:'300px'}} src={img} alt="" />
                 <h3>{name}</h3>

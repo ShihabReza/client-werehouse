@@ -16,7 +16,7 @@ const Home = () => {
                 <Carousel.Item>
                         <img
                         className="d-block w-100"
-                        src="https://img.freepik.com/free-vector/3d-audio-soundwave-colorful-music-pulse-oscillation-glowing-impulse-pattern_1217-4877.jpg?t=st=1651982018~exp=1651982618~hmac=fa191c2f179155741cb65590846681518799f104da8fbf08c3c5d594c2ec04f4&w=1480"
+                        src="https://img.freepik.com/free-photo/portrait-tender-beautiful-blond-caucasian-girl-white-dress-daydreaming-while-listening-favorit_1258-93610.jpg?t=st=1651985960~exp=1651986560~hmac=6541515250311e596a676ba24df7119fa882128f5ff8746eadd4003cd241f257&w=1380"
                         alt="First slide"
                         />
                         <Carousel.Caption>
@@ -27,7 +27,7 @@ const Home = () => {
                 <Carousel.Item>
             <img
             className="d-block w-100"
-            src="https://img.freepik.com/free-vector/3d-audio-soundwave-colorful-music-pulse-oscillation-glowing-impulse-pattern_1217-4877.jpg?t=st=1651982018~exp=1651982618~hmac=fa191c2f179155741cb65590846681518799f104da8fbf08c3c5d594c2ec04f4&w=1480"
+            src="https://img.freepik.com/free-photo/portrait-tender-beautiful-blond-caucasian-girl-white-dress-daydreaming-while-listening-favorit_1258-93610.jpg?t=st=1651985960~exp=1651986560~hmac=6541515250311e596a676ba24df7119fa882128f5ff8746eadd4003cd241f257&w=1380"
             alt="Second slide"
             />
 
@@ -38,7 +38,7 @@ const Home = () => {
                 <Carousel.Item>
                     <img
                     className="d-block w-100"
-                    src="https://img.freepik.com/free-vector/3d-audio-soundwave-colorful-music-pulse-oscillation-glowing-impulse-pattern_1217-4877.jpg?t=st=1651982018~exp=1651982618~hmac=fa191c2f179155741cb65590846681518799f104da8fbf08c3c5d594c2ec04f4&w=1480"
+                    src="https://img.freepik.com/free-photo/portrait-tender-beautiful-blond-caucasian-girl-white-dress-daydreaming-while-listening-favorit_1258-93610.jpg?t=st=1651985960~exp=1651986560~hmac=6541515250311e596a676ba24df7119fa882128f5ff8746eadd4003cd241f257&w=1380"
                     alt="Third slide"
                     />
 
