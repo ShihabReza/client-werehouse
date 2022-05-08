@@ -9,6 +9,7 @@ import SingUp from './component/SingUp/SingUp';
 import Login from './component/Login/Login';
 import PrivateRoute from './component/PrivateRoute/PrivateRoute';
 import ProductDetls from './component/ProductDelels/ProductDetls';
+import NotFound from './component/NotFound/NotFound';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route path='/detls/:id' element={
             <PrivateRoute><ProductDetls></ProductDetls></PrivateRoute>
           }></Route>
+          <Route path='*' element={<NotFound></NotFound>}></Route>
       </Routes>
      <Footer></Footer>
     </div>
