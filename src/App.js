@@ -10,6 +10,7 @@ import Login from './component/Login/Login';
 import PrivateRoute from './component/PrivateRoute/PrivateRoute';
 import ProductDetls from './component/ProductDelels/ProductDetls';
 import NotFound from './component/NotFound/NotFound';
+import Blog from './component/Blog/Blog';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route path='/detls/:id' element={
             <PrivateRoute><ProductDetls></ProductDetls></PrivateRoute>
           }></Route>
+          <Route path='/blog' element={<Blog></Blog>}></Route>
           <Route path='*' element={<NotFound></NotFound>}></Route>
       </Routes>
      <Footer></Footer>
