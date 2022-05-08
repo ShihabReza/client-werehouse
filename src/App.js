@@ -11,6 +11,7 @@ import PrivateRoute from './component/PrivateRoute/PrivateRoute';
 import ProductDetls from './component/ProductDelels/ProductDetls';
 import NotFound from './component/NotFound/NotFound';
 import Blog from './component/Blog/Blog';
+import AddProduct from './component/AddProduct/AddProduct';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           
           <Route path='/SingUp' element={<SingUp></SingUp>}></Route>
           <Route path='/Login'element={<Login></Login>}></Route>
+          <Route path='/Addproduct' element={<AddProduct></AddProduct>}></Route>
           <Route path='/detls/:id' element={
             <PrivateRoute><ProductDetls></ProductDetls></PrivateRoute>
           }></Route>

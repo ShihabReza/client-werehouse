@@ -15,6 +15,7 @@ const PrivateRoute = ({ children }) => {
     // than dropping them off on the home page.
     return <Navigate to="/Login" state={{ from: location }} replace />;
   }
+  
 
   return children;
 };

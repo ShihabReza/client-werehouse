@@ -6,7 +6,7 @@ import MainSection from '../MainSection/MainSection';
 const Home = () => {
     const [items,setItems] = useState ([])
     useEffect( () =>{
-        fetch('http://localhost:5000/product')
+        fetch('https://evening-fjord-90434.herokuapp.com/product')
         .then(res=>res.json())
         .then(data=>setItems(data))
     },[])
