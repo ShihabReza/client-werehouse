@@ -5,7 +5,7 @@ const AddProduct = () => {
     
    const onSubmit = data =>{
 
-    const url = `http://localhost:5000/product`
+    const url = `https://evening-fjord-90434.herokuapp.com/product`
     fetch(url,{
         method:'POST',
         headers:{

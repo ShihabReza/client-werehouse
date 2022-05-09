@@ -1,7 +1,8 @@
 import React from 'react';
 import { useSignInWithGoogle } from 'react-firebase-hooks/auth';
 import { useNavigate } from 'react-router-dom';
-import auth from '../../firebase.int';
+import auth from '../../firebase.int.js';
+
 
 const GoogleLogin = () => {
     const [signInWithGoogle, user, loading, error] = useSignInWithGoogle(auth);
@@ -31,6 +32,7 @@ const GoogleLogin = () => {
             <img style={{width:'100px'}} src="https://cdn2.hubspot.net/hubfs/53/image8-2.jpg" alt="" />
             <h1>Google SingIn</h1>
         </button>
+        
     </div>
     );
 };
